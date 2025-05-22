@@ -1,0 +1,6 @@
+cargo run -- Run and build :)
+cargo bootimage -- Creates the bootimage for the OS
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-rustos/debug/bootimage-rustos.bin -- Actually build the OS now
+
+
+panic = "abort"
